@@ -51,8 +51,10 @@
 }
 }
 
-@media only screen and (max-width: 769px) .container-menu {
+@media screen and (max-width: 769px) {
+.container-menu {
     width: 90%;
+}
 }
 
 .container-flex {
@@ -78,14 +80,18 @@ u.height100 {
     padding-top: .25rem;
 }
 
-@media only screen and (max-width: 769px) .logo {
+@media screen and (max-width: 769px)  {
+.logo {
     font-size: 26px;
     padding-bottom: 25rem;
 }
+}
 
-@media only screen and (max-width: 769px) .logo,
+@media screen and (max-width: 769px) {
+.logo,
 .menu-item {
     padding: 15px 0;
+}
 }
 
 img {
@@ -112,8 +118,10 @@ img {
     transition: all .25s;
 }
 
-@media only screen and (max-width: 1060px) .menu-item {
+@media screen and (max-width: 1060px) {
+.menu-item {
     font-size: 16px;
+}
 }
 
 #menu-portfolio,
@@ -217,7 +225,7 @@ h1, h2, h3 {
     bottom: 0px;
     height: 600px;
     margin-bottom: 0px;
-    background-image: url(food.jpg), linear-gradient(180deg, #6fc7b3, #6fc7b3);
+    background-image: url(../images/food.jpg), linear-gradient(180deg, #6fc7b3, #6fc7b3);
     background-position: 50% 50%, 0px 0px;
     background-size: cover, auto;
     background-attachment: scroll, scroll;
@@ -395,7 +403,7 @@ p {
     right: 641px;
     bottom: 30px;
     height: 500px;
-    background-image: url(activity1.jpg), linear-gradient(180deg, #89b1cc, #89b1cc);
+    background-image: url(../images/activity1.jpg), linear-gradient(180deg, #89b1cc, #89b1cc);
     background-position: 272% 50%, 0px 0px;
     background-size: 90%, auto;
     background-repeat: no-repeat, repeat;
@@ -413,7 +421,7 @@ p {
 .container-2 {
     left: -72px;
     top: 0px;
-    background-image: url(activity1\ \(2\).jpg), linear-gradient(180deg, transparent, transparent);
+    background-image: url(../images/activity1\ \(2\).jpg), linear-gradient(180deg, transparent, transparent);
     background-position: 50% 50%, 0px 0px;
     background-repeat: repeat-y, repeat;
 }
@@ -473,7 +481,7 @@ p {
     height: 600px;
     float: right;
     clear: none;
-    background-image: url(activity2.jpg), linear-gradient(180deg, #89b1cc, #89b1cc);
+    background-image: url(../images/activity2.jpg), linear-gradient(180deg, #89b1cc, #89b1cc);
     background-position: 50% 50%, 0px 0px;
     background-size: cover, auto;
     background-repeat: no-repeat, repeat;
@@ -536,7 +544,7 @@ p {
     overflow: visible;
     height: 600px;
     margin-bottom: 0px;
-    background-image: url(ticket.jpg), linear-gradient(180deg, #de8579, #de8579);
+    background-image: url(../images/ticket.jpg), linear-gradient(180deg, #de8579, #de8579);
     background-position: 50% 0px, 0px 0px;
     background-size: cover, auto;
     background-repeat: no-repeat, repeat;
@@ -559,17 +567,19 @@ p {
     opacity: 1;
 }
 
-@media (max-width: 991px)
+@media screen and (max-width: 991px) {
 .project-box-3 {
     left: -76px;
     z-index: 1;
 }
+}
 
-@media (max-width: 767px)
+@media screen and (max-width: 767px) {
 .project-box-3 {
     left: -47px;
     top: 91px;
     right: 70px;
+}
 }
 
 .text-center {
@@ -675,14 +685,16 @@ footer {
     margin-left: auto;
 }
 
-@media (min-width: 576px)
+@media screen and (min-width: 576px) {
 .container {
     max-width: 540px;
 }
+}
 
-@media (min-width: 768px)
+@media (min-width: 768px) {
 .container {
     max-width: 720px;
+}
 }
 
 .row {
@@ -699,11 +711,12 @@ footer {
     padding-left: 15px;
 }
 
-@media (min-width: 768px)
+@media screen and (min-width: 768px) {
 .col-md {
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
+}
 }
 
 .text--left {
@@ -711,9 +724,10 @@ footer {
 }
 
 
-@media (min-width: 768px)
+@media screen and (min-width: 768px) {
 .text--left {
     text-align: left;
+}
 }
 
 
@@ -734,20 +748,22 @@ footer {
     content: "\f08c";
 }
 
-@media (min-width: 768px)
+@media screen and (min-width: 768px) {
 .col-md {
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
+}
 }
 
 .text--right {
     text-align: right!important;
 }
 
-@media (min-width: 768px)
+@media screen and (min-width: 768px) {
 .text--right {
     text-align: right;
+}
 }
 
 .fas {
@@ -758,9 +774,10 @@ footer {
     font-size: 16px;
 }
 
-@media (max-width: 768px)
+@media screen and (max-width: 768px) {
 .copyright {
     margin: 0 auto;
+}
 }
 
 .fade-out-right {
@@ -811,3 +828,267 @@ footer {
         99% {
           background: var(--main-bg);
         }
+    }
+
+a.text-decoration {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*-------MOBILE-----*/
+@media screen and (max-width: 479px) {
+.project-section-1 {
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+}
+
+@media screen and (max-width: 479px) {
+    .container-1 {
+        position: static;
+        left: 0px;
+        right: 0px;
+        display: block;
+        overflow: visible;
+        height: 480px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    }
+
+    @media screen and (max-width: 479px){
+.w-container {
+    max-width: none;
+}
+}
+
+@media screen and (max-width: 479px) {
+.project-box-1 {
+    left: 0px;
+    top: 80px;
+    right: 0px;
+    display: block;
+    overflow: visible;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+}
+}
+
+@media screen and (max-width: 479px) {
+.project-link-block {
+    position: absolute;
+    display: block;
+}
+}
+
+@media screen and (max-width: 479px) {
+.view-case-study-link {
+    line-height: 28px;
+}
+}
+
+@media screen and (max-width: 479px) {
+.project-section-2 {
+    height: 500px;
+    margin-bottom: 0px;
+}
+}
+
+@media screen and (max-width: 479px) {
+.project-section-3 {
+    display: block;
+    margin: -40px auto 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    float: none;
+}
+}
+
+@media screen and (max-width: 479px) {
+.container-2 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 30;
+    display: block;
+    overflow: visible;
+    margin-top: -20px;
+    padding-top: 0px;
+    background-image: url(../images/activity1.jpg), linear-gradient(180deg, #89b1cc, #89b1cc);
+    background-position: 50% 50%, 0px 0px;
+    background-size: cover, auto;
+    background-repeat: no-repeat, repeat;
+}
+}
+
+@media screen and (max-width: 479px) {
+    .project-box-2 {
+        left: 0px;
+        top: 100px;
+        right: 0px;
+        display: block;
+        overflow: visible;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+    }
+    }
+
+    @media screen and (max-width: 479px) {
+        .container-3 {
+            position: relative;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            z-index: 10;
+            display: block;
+            overflow: visible;
+            height: 500px;
+        }
+        }
+
+@media screen and (max-width: 479px) {
+.project-box-3 {
+    left: 0px;
+    top: 100px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    overflow: visible;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+}
+}
+
+@media screen and (max-width: 479px) {
+.project-link-block {
+    position: absolute;
+    display: block;
+}
+}
+
+/*-------TABLET-----*/
+@media screen and (max-width: 767px) {
+.project-section-1 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+}
+@media screen and (max-width: 767px) {
+.container-1 {
+    left: -72px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.project-box-1 {
+    left: 72px;
+    top: 91px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.project-section-3 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.container-2 {
+    left: -72px;
+    top: 0px;
+    background-image: url(../images/activity1.jpg), linear-gradient(180deg, #89b1cc, #89b1cc);
+    background-position: 50% 50%, 0px 0px;
+    background-repeat: repeat-y, repeat;
+}
+}
+
+@media screen and (max-width: 767px) {
+.project-box-2 {
+    left: -62px;
+    top: 91px;
+    right: 501px;
+    z-index: 5;
+    display: block;
+    margin-right: -114px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.div_project_image {
+    background-image: url(activity2\ \(2\).jpg), linear-gradient(180deg, transparent, transparent);
+    background-position: 50% 50%, 0px 0px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.container-3 {
+    left: 47px;
+    bottom: 649px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.project-box-3 {
+    left: -47px;
+    top: 91px;
+    right: 70px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.w-container {
+    max-width: 728px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.project-box-1 {
+    left: 103px;
+    z-index: 1;
+}
+}
+
+@media screen and (max-width: 991px) {
+.project-section-2 {
+    height: 600px;
+    margin-bottom: 100px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.container-2 {
+    top: 77px;
+    right: 561px;
+    bottom: 0px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.project-box-2 {
+    left: 324px;
+    right: 470px;
+    z-index: 1;
+}
+}
+
+@media screen and (max-width: 991px) {
+.div_project_image {
+    left: 949px;
+    top: -378px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.project-box-3 {
+    left: -76px;
+    z-index: 1;
+}
+}
